@@ -5,7 +5,7 @@
 }
 
 .Destaques .DestaquesTitulo{
-    width: 60%;
+    width: 65%;
     height: 35px;
     background-color: black;
     color: whitesmoke;
@@ -15,7 +15,7 @@
 }
 
 .Destaques .DestaquesConteudo{
-    width: 60%;
+    width: 65%;
     height: 250px;
     background-color: rgb(150, 152, 146);
     border: 2px solid black;
