@@ -5,12 +5,12 @@
 
 header{
     width: 100%;
-    height: 220px;
+    height: 180px;
     border: 5px solid black;
 }
 
 main{
-    margin-top: 20px;
+    margin-top: 10px;
     height: 800px;
     width: 68%;
     border: 5px solid black;
@@ -46,8 +46,8 @@ main .Caixa2{
     float: right;
 }
 aside{
-    margin-top: 20px;
-    margin-left: 2%;
+    margin-top: 10px;
+    margin-left: 1%;
     height: 800px;
     width: 30%;
     border: 5px solid black;
@@ -73,7 +73,7 @@ aside .Galeria{
 }
 
 footer{
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
     height: 35px;
     border: 5px solid black;
