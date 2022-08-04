@@ -1,71 +1,59 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-
-}
-
-.Destaques .DestaquesTitulo{
-    width: 65%;
-    height: 35px;
-    background-color: black;
-    color: whitesmoke;
+.DestaquesTitulo{
+    background-color: gray;
+    width: 100%;
+    height: 20%;
     font-size: x-large;
-    padding: 2px;
     padding-left: 50px;
+    padding-top: 4px;
+    color: white;
+    border-bottom: 5px solid black;
 }
 
-.Destaques .DestaquesConteudo{
-    width: 65%;
-    height: 250px;
-    background-color: rgb(150, 152, 146);
-    border: 2px solid black;
-}
-
-.Destaques .DestaquesConteudo .DestaquesImagem{
+.Destaques .DestaquesFoto{
+    background-color: red;
+    height: 80.5%;
     width: 35%;
-    height: 100%;
-    background-color: rgb(150, 152, 146);
+    border-right: 5px solid black;
+    display: flex;
     float: left;
 }
 
-.Destaques .DestaquesConteudo .DestaquesImagem .BackgroundImage{
+.Destaques .DestaquesImagem{
+    background-color: yellow;
     height: 80%;
     width: 80%;
-    background-color: black;
-    margin-left: 10%;
-    margin: 8%;
+    margin: auto;
     background-image: url("https://www.todoespacoonline.com/w/wp-content/uploads/2014/08/css3-logo.jpg");
     background-size: cover;
     background-position: center;
+    border: 5px solid black;
 }
 
-.Destaques .DestaquesConteudo .DestaquesTexto{
+.Destaques .DestaquesTexto{
+    background-color: aquamarine;
+    height: 80.5%;
     width: 65%;
-    height: 100%;
-    background-color: rgb(150, 152, 146);
     float: right;
+    padding: 12px;
 }
 
-.Destaques .DestaquesConteudo .DestaquesTexto h1{
-    padding-top: 20px;
-    font-size: x-large;
-    color: whitesmoke;
+.Destaques .DestaquesTexto h1{
+    color: black;
+    padding-bottom: 6px;
 }
 
-.Destaques .DestaquesConteudo .DestaquesTexto p{
-    padding-top: 12px;
-}
-
-.Destaques .DestaquesConteudo .DestaquesTexto button{
+.Destaques .DestaquesTexto button{
     margin-left: 400px;
-    margin-top: 25px;
+    margin-top: 6px;
     border: 2px solid black;
-    border-radius: 10%;
+    border-radius: 30%;
+    background-color: blueviolet;
 }
 
-.Destaques .DestaquesConteudo .DestaquesTexto button:hover{
+.Destaques .DestaquesTexto button:hover{
     color: #ffee10;
     box-shadow: 0 0 5px #ffee10;
     text-shadow: 0 0 5px #ffee10;
     cursor: pointer;
 }
+
