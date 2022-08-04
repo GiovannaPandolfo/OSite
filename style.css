@@ -54,12 +54,14 @@ aside .CaixaBusca{
     width: 100%;
     height: 10%;
     border: 5px solid black;
+    border-bottom: 0;
 }
 
 aside .MaisLidos{
     width: 100%;
     height: 40%;
     border: 5px solid black;
+    border-bottom: 0;
 }
 
 aside .Galeria{
