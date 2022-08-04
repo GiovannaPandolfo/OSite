@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.Destaques .DestaquesTitulo{
+    width: 60%;
+    height: 35px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: x-large;
+    padding: 2px;
+    padding-left: 50px;
+}
+
+.Destaques .DestaquesConteudo{
+    width: 60%;
+    height: 250px;
+    background-color: rgb(150, 152, 146);
+    border: 2px solid black;
+}
+
+.Destaques .DestaquesConteudo .DestaquesImagem{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(150, 152, 146);
+    float: left;
+}
+
+.Destaques .DestaquesConteudo .DestaquesImagem .BackgroundImage{
+    height: 80%;
+    width: 80%;
+    background-color: black;
+    margin-left: 10%;
+    margin: 8%;
+    background-image: url("css3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.Destaques .DestaquesConteudo .DestaquesTexto{
+    width: 65%;
+    height: 100%;
+    background-color: rgb(150, 152, 146);
+    float: right;
+}
+
+.Destaques .DestaquesConteudo .DestaquesTexto h1{
+    padding-top: 20px;
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+.Destaques .DestaquesConteudo .DestaquesTexto p{
+    padding-top: 12px;
+}
+
+.Destaques .DestaquesConteudo .DestaquesTexto button{
+    margin-left: 400px;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.Destaques .DestaquesConteudo .DestaquesTexto button:hover{
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    cursor: pointer;
+}
