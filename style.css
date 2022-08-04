@@ -31,7 +31,7 @@ main .Caixas{
 }
 
 main .Caixa1{
-    width: 49%;
+    width: 49.5%;
     height: 100%;
     border: 5px solid black;
     margin-right: 1%;
@@ -39,10 +39,9 @@ main .Caixa1{
 }
 
 main .Caixa2{
-    width: 49%;
+    width: 49.5%;
     height: 100%;
     border: 5px solid black;
-    margin-left: 1%;
     float: right;
 }
 aside{
