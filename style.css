@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(84, 84, 84);
+}
+h2{
+    color: rgb(243, 243, 243);
+    background-color: rgb(30, 30, 30);
+    width: 400px;
+    margin-left: 10px;
+}
+ul{
+    margin-top: 15px;
+    margin-left: -30px;
+    list-style: none;
+}
+ul li:before{
+    content: '\2022';
+    margin: 07px;
+    color: black;
+}
+li{
+    color: rgb(243, 243, 243);
+    margin-top: 7px;
+}
