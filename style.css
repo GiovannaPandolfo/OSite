@@ -25,19 +25,3 @@ button{
     margin-bottom: 20px;
     margin-top: 10px;
 }
-h2{
-    color: rgb(243, 243, 243);
-    width: 400px;
-    margin-left: 10px;
-    justify-content: center;
-    background-color:  rgb(30, 30, 30);
-}
-ul{
-    margin-top: 15px;
-    margin-left: 27px;
-}
-li{
-    color: rgb(243, 243, 243);
-    margin-top: 7px;
-    list-style-type: circle; 
-}
