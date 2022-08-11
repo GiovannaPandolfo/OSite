@@ -128,6 +128,24 @@ article section{
     left: 15px;
 }
 
+aside .CaixaBusca{
+    background-color: gray;
+}
+
+aside .CaixaBusca .Busca{
+    border: 1px solid black;
+    height: 75%;
+    width: 62%;
+    margin: auto;
+    margin-top: 6px;
+}
+
+aside .CaixaBusca .Busca input{
+    width: 100%;
+    height: 100%;
+    font-size: medium;
+    text-align: center;
+}
 
 .leiamais{
     background-color: rgb(176, 174, 174);
