@@ -22,6 +22,65 @@ main .Destaques{
     border: 5px solid black;
 }
 
+.DestaquesTitulo{
+    background-color: gray;
+    width: 100%;
+    height: 20%;
+    font-size: x-large;
+    padding-left: 50px;
+    padding-top: 4px;
+    color: white;
+    border-bottom: 5px solid black;
+}
+
+.Destaques .DestaquesFoto{
+    background-color: red;
+    height: 80.5%;
+    width: 35%;
+    border-right: 5px solid black;
+    display: flex;
+    float: left;
+}
+
+.Destaques .DestaquesImagem{
+    background-color: yellow;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    background-image: url("https://www.todoespacoonline.com/w/wp-content/uploads/2014/08/css3-logo.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.Destaques .DestaquesTexto{
+    background-color: aquamarine;
+    height: 80.5%;
+    width: 65%;
+    float: right;
+    padding: 12px;
+}
+
+.Destaques .DestaquesTexto h1{
+    color: black;
+    padding-bottom: 6px;
+}
+
+.Destaques .DestaquesTexto button{
+    margin-left: 400px;
+    margin-top: 6px;
+    border: 2px solid black;
+    border-radius: 30%;
+    background-color: blueviolet;
+}
+
+.Destaques .DestaquesTexto button:hover{
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    cursor: pointer;
+}
+
 main .Caixas{
     width: 100%;
     margin-top: 1%;
