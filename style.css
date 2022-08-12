@@ -9,6 +9,39 @@ header{
     border: 5px solid black;
 }
 
+header .Cabeçalho{
+    background-color: aquamarine;
+    height: 75%;
+    width: 100%;
+}
+
+header .Links{
+    height: 25%;
+    width: 100%;
+    background-color: aquamarine;
+    border-top: 5px solid black;
+}
+
+header .Links ul{
+    text-align: center;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;  
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+    border: 1px solid black;
+    border-radius: 40%;
+    background-color: white;
+}
+
 main{
     margin-top: 10px;
     height: 800px;
