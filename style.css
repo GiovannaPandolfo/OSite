@@ -10,26 +10,34 @@ header{
 }
 
 header .Cabeçalho{
-    background-color: aquamarine;
-    height: 75%;
+    background-color: grey;
+    height: 100%;
     width: 100%;
 }
 
 header .Links{
     height: 25%;
     width: 100%;
-    background-color: aquamarine;
     border-top: 5px solid black;
 }
 
-header .Links ul{
+header .links1{
+    list-style-type: none;
+    background-color: rgb(52, 53, 53);
+    position: relative;
     text-align: center;
-    padding-top: 10px;
+    left: -5px;
+    top: -52px;
+    width: 100%;
+    height: 40px;
 }
 
 a{
+    font-size: 18px;
+    position: relative;
+    top: 12px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     border-left: 1px solid black;
     border-right: 1px solid black;  
 }
@@ -87,11 +95,27 @@ main .Destaques{
 }
 
 .Destaques .DestaquesTexto{
-    background-color: aquamarine;
+    background-color: grey;
     height: 80.5%;
     width: 65%;
     float: right;
-    padding: 12px;
+}
+
+.botaolm1{
+    top: 2px;
+    left: 55px;
+    position: relative;
+}
+
+.botaolm2{
+    left: 125px;
+    position: relative;
+}
+
+.botaolm3{
+    top: 2px;
+    left: 55px;
+    position: relative;
 }
 
 .Destaques .DestaquesTexto h1{
@@ -102,9 +126,6 @@ main .Destaques{
 .Destaques .DestaquesTexto button{
     margin-left: 400px;
     margin-top: 6px;
-    border: 2px solid black;
-    border-radius: 30%;
-    background-color: blueviolet;
 }
 
 .Destaques .DestaquesTexto button:hover{
@@ -121,16 +142,19 @@ main .Caixas{
 }
 
 main .Caixa1{
+    position: relative;
     width: 49.5%;
     height: 100%;
+    top: 10px;
+    background-color: grey;
     border: 5px solid black;
-    margin-right: 1%;
-    float: left;
 }
 
 main .Caixa2{
     width: 49.5%;
     height: 100%;
+    margin-top: -502px;
+    background-color: grey;
     border: 5px solid black;
     float: right;
 }
@@ -168,12 +192,20 @@ h3{
 }
 
 p{
-    width: 300px;
+    width: 90%;
     color: white;
     margin-left: 15px;
     text-align: justify;
     margin-right: 22px;
 
+}
+
+.p2{
+    width: 130%;
+}
+
+.p3{
+    width: 130%;
 }
 
 button{
@@ -185,7 +217,6 @@ button{
 }
 
 aside .MaisLidos{
-    background-color: grey;
     width: 100%;
     height: 41.75%;
     border: 5px solid black;
@@ -225,12 +256,14 @@ article section{
 }
 
 .div1{
-    width: 300px;
+    width: 148%;
     height: 40px;
     background-color: rgb(52, 53, 53);
 }
 
-.webdesing{
+.webdesign{
+    background-color: rgb(52, 53, 53);
+    width: 50px;
     color: white;
     top: 10px;
     position: relative;
@@ -257,37 +290,78 @@ aside .CaixaBusca .Busca input{
 }
 
 .leiamais{
-    background-color: rgb(176, 174, 174);
-    width: 100px;
+    width: 100%;
     height: 25px;
     font-size: 13px;
     float: right;
     margin-right: 25px;
 }
 
-.um{
+.Galeria2{
+    margin-top: -20px;
+    top: 50px;
+    width: 100%;
+    height: 50px;
+}
+
+aside{
+    width: 31%;
+    height: 810px;
+    background-color: rgb(100, 100, 100);
+}
+
+.animais{
     position: relative;
-    top: 5px;
-    right: -17px;
-    color: rgb(69, 68, 68);
+    top: 30px;
+    left: 30px;
+}
+
+.raposa{
+    position: relative;
+    right: 10px;
+    width: 40%;
+    height: 180px;
+}
+
+.lobo{
+    position: relative;
+    left: 15px;
+    width: 40%;
+    height: 180px;
+}
+
+.jaguar{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    width: 40%;
+    height: 180px;
+}
+
+.tigre{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    width: 40%;
+    height: 180px;
 }
 
 .div2{
     background-color: rgb(52, 53, 53);
     position: relative;
+    width: 0%;
     top: 50px;
-    width: 254px;
-    height: 25px;
-    left: 20px;
-    justify-content: center;
+    left: 2px;
 }
 
 .maisartigos{
+    position: relative;
     font-size: 14px;
     color: white;
     position: relative;
-    left: 70px;
-    top: 4px;
+    top: 30px;
+    height: 20px;
+    text-align: center;
 }
 
 h2{
@@ -314,18 +388,38 @@ li{
 .ulli{
     color: white;
     position: relative;
-    top: 50px;
+    top: 100px;
     text-align: justify;
     margin-left: -5px;
     font-size: 14px;
-    width: 270px;
+    width: 100%;
     height: 50px;
 }
 
-h1{
-    background-color: rgb(30, 30, 30);
+.h1UM{
+    background-color: rgb(52, 53, 53);
+    text-align: left;
+    width: 148%;
+    height: 40px;
+}
+
+.destaquesh1{
+    position: relative;
+    right: 50px;
+    top: -5px;
+    background-color: rgb(68, 68, 68);
+    width: 105.8%;
+    height: 50px;
+}
+
+.layouth1{
     color: white;
-    margin-left: 10px;
+    background-color:grey
+}
+
+h1{
+    width: 440px;
+    color: white;
 }
 li{
     margin-left: 5px;
@@ -334,27 +428,35 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(84, 84, 84);
 }
-h2{
-    color: rgb(243, 243, 243);
-    background-color: rgb(30, 30, 30);
-    width: 400px;
+
+.h2DOIS{
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    width: 70%;
+    font-size: 22px;
     margin-left: 10px;
 }
-ul{
-    background-color: white;
+.ulmaislidos{
+    
     margin-top: 0px;
     width: 300%;
     height: 270px;
     margin-left: 10px;
     list-style: none;
 }
+
 ul li:before{
     content: '\2022';
     margin: 07px;
     color: black;
 }
+
 li{
-    background-color: white;
+    color: white;
+    background-color: grey;
     color: rgb(0, 0, 0);
-    margin-left: -30px;
+    margin-right: 50px;
+    position: relative;
+    right: 35px;
+    top: 50px;
 }
