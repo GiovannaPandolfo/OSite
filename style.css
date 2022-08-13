@@ -1,53 +1,53 @@
 *{
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background-image: url("https://cdn.discordapp.com/attachments/1004227209172619286/1006416738126151770/WallpaperDog-10946468.png");
 }
 
 header{
     width: 100%;
     height: 180px;
-    border: 5px solid black;
 }
 
 header .Cabeçalho{
+    background-image: url("https://i.redd.it/ca2kalp8sks41.jpg");
     background-color: grey;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    height: 320px;
     width: 100%;
 }
 
 header .Links{
     height: 25%;
     width: 100%;
-    border-top: 5px solid black;
 }
 
 header .links1{
+    word-spacing: 15px;
     list-style-type: none;
     background-color: rgb(52, 53, 53);
     position: relative;
     text-align: center;
-    left: -5px;
-    top: -52px;
+    bottom: 50px;
+    left: -2px;
     width: 100%;
-    height: 40px;
+    height: 50px;
 }
+
 
 a{
     font-size: 18px;
     position: relative;
-    top: 12px;
+    top: 15px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    border-left: 1px solid black;
-    border-right: 1px solid black;  
-}
-
-a:hover{
-    text-decoration: underline;
-    color: rgb(0, 225, 255);
-    border: 1px solid black;
-    word-spacing: 2px;
-    background-color: white;
 }
 
 main{
@@ -58,9 +58,10 @@ main{
 }
 
 main .Destaques{
+    position: relative;
+    top: 160px;
     width: 100%;
-    height: 35%;
-    border: 5px solid black;
+    height: 42%;
 }
 
 .DestaquesTitulo{
@@ -68,30 +69,28 @@ main .Destaques{
     width: 100%;
     height: 20%;
     font-size: x-large;
-    padding-left: 50px;
-    padding-top: 4px;
+    padding-left: 20px;
+    padding-top: 5px;
     color: white;
-    border-bottom: 5px solid black;
 }
 
 .Destaques .DestaquesFoto{
-    background-color: red;
+    background-color: grey;
     height: 80.5%;
     width: 35%;
-    border-right: 5px solid black;
     display: flex;
     float: left;
 }
 
 .Destaques .DestaquesImagem{
-    background-color: yellow;
-    height: 80%;
-    width: 80%;
-    margin: auto;
-    background-image: url("https://www.todoespacoonline.com/w/wp-content/uploads/2014/08/css3-logo.jpg");
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 95%;
+    margin-left: 15px;
+    margin-top: 5px;
+    background-image: url("file:///C:/Users/Administrator/Downloads/csgo-dance-cs-go-dance-5x-RIFE-RIFE3.9-50fps.gif");
     background-size: cover;
     background-position: center;
-    border: 5px solid black;
 }
 
 .Destaques .DestaquesTexto{
@@ -102,36 +101,27 @@ main .Destaques{
 }
 
 .botaolm1{
+    margin-left: 400px;
+    margin-top: 6px;
     top: 2px;
-    left: 55px;
+    left: 105px;
     position: relative;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .botaolm2{
-    left: 125px;
+    left: 120%;
     position: relative;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .botaolm3{
     top: 2px;
-    left: 150px;
+    left: 129%;
     position: relative;
-}
-
-.Destaques .DestaquesTexto h1{
-    color: black;
-    padding-bottom: 6px;
-}
-
-.Destaques .DestaquesTexto button{
-    margin-left: 400px;
-    margin-top: 6px;
-}
-
-.Destaques .DestaquesTexto button:hover{
-    color: #ffee10;
-    box-shadow: 0 0 5px #ffee10;
-    text-shadow: 0 0 5px #ffee10;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
@@ -145,40 +135,44 @@ main .Caixa1{
     position: relative;
     width: 49.5%;
     height: 100%;
-    top: 10px;
+    margin-top: 19%;
     background-color: grey;
-    border: 5px solid black;
 }
 
 main .Caixa2{
     width: 49.5%;
-    height: 100%;
-    margin-top: -502px;
+    height: 64%;
+    margin-top: -512px;
     background-color: grey;
-    border: 5px solid black;
     float: right;
 }
 
 aside{
-    margin-top: 10px;
+    margin-top: 12.55%;
     margin-left: 1%;
-    height: 800px;
-    width: 31%;
     display: inline-block;
 }
 
 aside .CaixaBusca{
     width: 100%;
-    height: 6.7%;
-    border: 5px solid black;
-    border-bottom: 0;
+    height: 9%;
+}
+
+.h1ml{
+    color: rgb(243, 243, 243);
+    background-color: rgb(52, 53, 53);
+    position: relative;
+    bottom: 50px;
+    width: 100%;
+    height: 50px;
+
 }
 
 h1{
     color: rgb(243, 243, 243);
-    background-color: rgb(30, 30, 30);
-    width: 300px;
 }
+
+
 h2{
     color: white;
     margin-top: 10px;
@@ -191,52 +185,47 @@ h3{
     margin-bottom: 10px;
 }
 
+.h3dois{
+    font-size: 22px;
+    margin-left: 16px;
+}
+
 p{
-    width: 90%;
+    width: 94%;
     color: white;
     margin-left: 15px;
     text-align: justify;
     margin-right: 22px;
-
+    margin-top: 10px;
 }
 
 .p2{
-    width: 130%;
+    width: 140%;
 }
 
 .p3{
-    width: 130%;
-}
-
-button{
-    background-color:  rgb(182, 182, 182);
-    width: 90px;
-    margin-left: 190px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
+    width: 140%;
 }
 
 aside .MaisLidos{
-    width: 100%;
-    height: 41.75%;
-    border: 5px solid black;
-    border-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 32%;
+    position: relative;
+    top: 70px;
+    left: 20px;
 }
 
 aside .Galeria{
+    position: relative;
+
     width: 100%;
     height: 51.5%;
-    border: 5px solid black;
 }
 
 footer{
-    margin-top: 10px;
-    width: 100%;
-    height: 180px;
-    border: 5px solid black;
-}
-
-footer{
+    margin-top: 20px;
     width: 100%;
     height: 35px;
     background-color: rgb(108, 108, 108);
@@ -244,8 +233,7 @@ footer{
 
 footer p{
     position: relative;
-    left: 12px;
-    top: 8px;
+    top: 10px;
     color: white;
 }
 
@@ -256,13 +244,15 @@ article section{
 }
 
 .div1{
-    width: 148%;
+    width: 152%;
     height: 40px;
-    background-color: rgb(52, 53, 53);
+    border: 1px solid rgb(0, 0, 0);
+    background: linear-gradient(200deg, cyan,blue, rgb(234, 0, 255), red, rgb(255, 174, 0));
+    background-size: 400% 400%;
+    animation: colors 20s ease infinite alternate;
 }
 
 .webdesign{
-    background-color: rgb(52, 53, 53);
     width: 50px;
     color: white;
     top: 10px;
@@ -270,24 +260,21 @@ article section{
     left: 15px;
 }
 
-aside .CaixaBusca{
-    background-color: gray;
-}
-
 aside .CaixaBusca .Busca{
-    border: 1px solid black;
     height: 75%;
-    width: 62%;
+    width: 90%;
     margin: auto;
-    margin-top: 6px;
+    margin-top: 20px;
 }
 
 aside .CaixaBusca .Busca input{
     width: 100%;
     height: 100%;
-    font-size: medium;
-    text-align: center;
+    font-size: 17px;
+    text-align: left;
+    font-style: italic;
 }
+
 
 .leiamais{
     width: 100%;
@@ -298,68 +285,120 @@ aside .CaixaBusca .Busca input{
 }
 
 .Galeria2{
-    margin-top: -20px;
-    top: 50px;
     width: 100%;
     height: 50px;
 }
 
 aside{
     width: 31%;
-    height: 810px;
+    height: 864px;
     background-color: rgb(100, 100, 100);
 }
 
-.animais{
+.players{
     position: relative;
-    top: 30px;
+    top: 20px;
     left: 30px;
 }
 
-.raposa{
+.fallen{
     position: relative;
-    right: 10px;
-    width: 40%;
+    right: 14px;
+    width: 42%;
     height: 180px;
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.fallen:hover{
+    border: 10px solid #009dff;
+    border-radius: 10%;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.lobo{
+.monesy{
     position: relative;
-    left: 15px;
-    width: 40%;
+    left: 6px;
+    width: 42%;
     height: 180px;
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.monesy:hover{
+    border: 10px solid #009dff;
+    border-radius: 10%;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.jaguar{
+.fnx{
     position: relative;
-    top: 10px;
-    right: 10px;
-    width: 40%;
+    top: 25px;
+    right: 14px;
+    width: 42%;
     height: 180px;
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.fnx:hover{
+    border: 10px solid #009dff;
+    border-radius: 10%;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.tigre{
+.s1mple{
     position: relative;
-    top: 10px;
-    left: 15px;
-    width: 40%;
+    top: 25px;
+    left: 6px;
+    width: 42%;
     height: 180px;
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.s1mple:hover{
+    border: 10px solid #009dff;
+    border-radius: 10%;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .div2{
-    background-color: rgb(52, 53, 53);
+    background-color: rgb(30, 30, 30);
     position: relative;
-    width: 0%;
+    width: 140%;
+    height: 30px;
     top: 50px;
-    left: 2px;
+    left: 15px;
+}
+
+.div3{
+    background-color: rgb(30, 30, 30);
+    position: relative;
+    width: 91.5%;
+    height: 30px;
+    bottom: 211px;
+    left: 15px;
 }
 
 .maisartigos{
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     position: relative;
-    top: 30px;
+    top: -18px;
+    right: 10px;
+    height: 20px;
+    text-align: center;
+}
+
+.maisartigos2{
+    position: relative;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: -45.6%;
+    right: 10px;
     height: 20px;
     text-align: center;
 }
@@ -377,10 +416,11 @@ ul{
 }
 
 ul li{
-    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
-    top: 20px;
-    right: 50px;
+    bottom: 40px;
+    font-size: 18px;
+    right: 40px;
     width: 100%;
     height: 30px;
 }
@@ -390,39 +430,81 @@ ul li:before{
     margin: 07px;
     color: black;
 }
-li{
-    color: rgb(243, 243, 243);
-    margin-top: 7px;
-}
 
 .ulli{
-    color: white;
     position: relative;
-    top: 100px;
+    top: 60px;
     text-align: justify;
-    margin-left: -5px;
-    font-size: 14px;
+    margin-left: 15px;
+    font-size: 15px;
     width: 100%;
-    height: 50px;
+    height: 10%;
+}
+
+.ulli2{
+    position: relative;
+    top: -43.2%;
+    text-align: justify;
+    margin-left: 15px;
+    font-size: 15px;
+    width: 100%;
+    height: 10%;
+}
+
+.h1title{
+    color: white;
+    top: 15px;
+    left: 20px;
+    position: relative;
 }
 
 .h1UM{
-    background-color: rgb(52, 53, 53);
-    text-align: left;
-    width: 148%;
+    width: 152%;
     height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    background: linear-gradient(200deg, cyan,blue, rgb(234, 0, 255), red, rgb(255, 174, 0));
+    background-size: 400% 400%;
+    animation: colors 20s ease infinite alternate;
+}
+
+.h1UM2{
+    width: 50px;
+    color: white;
+    top: 10px;
+    position: relative;
+    left: 15px;
 }
 
 .destaquesh1{
     position: relative;
-    right: 50px;
+    right: 20px;
     top: -5px;
-    background-color: rgb(68, 68, 68);
-    width: 105.8%;
+    background-color: rgb(52, 53, 53);
+    width: 102.2%;
     height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    background: linear-gradient(200deg, cyan,blue, rgb(234, 0, 255), red, rgb(255, 174, 0));
+    background-size: 400% 400%;
+    animation: colors 20s ease infinite alternate;
 }
 
+@keyframes colors{
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 0% 100%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
 .layouth1{
+    margin-left: 14px;
     color: white;
     background-color:grey
 }
@@ -432,11 +514,8 @@ h1{
     color: white;
 }
 li{
-    margin-left: 5px;
-    background-color: white;
-    width: 290px;
+    margin-left: 2px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(84, 84, 84);
 }
 
 .h2DOIS{
@@ -444,23 +523,34 @@ li{
     background-color: grey;
     width: 70%;
     font-size: 22px;
-    margin-left: 10px;
+    margin-left: 16px;
 }
 .ulmaislidos{
-    
-    margin-top: 0px;
-    width: 300%;
+    margin-top: 10px;
+    width: 100%;
     height: 270px;
     margin-left: 10px;
     list-style: none;
 }
 
-li{
-    color: white;
+.li{
+    color: rgb(255, 255, 255);
     background-color: grey;
     color: rgb(0, 0, 0);
-    margin-right: 50px;
     position: relative;
     right: 30px;
     top: 50px;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 162, 255);
+    border: 3px solid rgb(255, 255, 255);
+  }
