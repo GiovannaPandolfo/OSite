@@ -15,11 +15,10 @@ header{
 }
 
 header .Cabeçalho{
-    background-image: url("https://i.redd.it/ca2kalp8sks41.jpg");
+    background-image: url("https://www.top10esports.com/wp-content/uploads/2019/09/r6csgo.jpg");
     background-color: grey;
-    background-repeat: no-repeat;
     background-position: 100%;
-    background-size: 100%;
+    background-size: 50%;
     height: 320px;
     width: 100%;
 }
@@ -331,7 +330,7 @@ aside{
     transform: scale(1.1);
 }
 
-.fnx{
+.nesk{
     position: relative;
     top: 25px;
     right: 14px;
@@ -340,14 +339,14 @@ aside{
     transition: all .5s;
     border: 10px solid transparent;
 }
-.fnx:hover{
+.nesk:hover{
     border: 10px solid #009dff;
     border-radius: 10%;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.s1mple{
+.zig{
     position: relative;
     top: 25px;
     left: 6px;
@@ -356,7 +355,7 @@ aside{
     transition: all .5s;
     border: 10px solid transparent;
 }
-.s1mple:hover{
+.zig:hover{
     border: 10px solid #009dff;
     border-radius: 10%;
     -webkit-transform: scale(1.1);
